@@ -1,0 +1,113 @@
+/* =============================================
+   BRASS TEMPLATE — ANIMATIONS CSS
+   ============================================= */
+
+/* --- Scroll reveal base --- */
+[data-reveal] {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+[data-reveal="fade-up"] { transform: translateY(30px); }
+[data-reveal="fade-in"] { transform: none; }
+[data-reveal="fade-left"] { transform: translateX(-30px); }
+[data-reveal="fade-right"] { transform: translateX(30px); }
+[data-reveal="scale-up"] { transform: scale(0.95); }
+
+[data-reveal].is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+/* Stagger delays */
+[data-delay="100"] { transition-delay: 0.1s; }
+[data-delay="200"] { transition-delay: 0.2s; }
+[data-delay="300"] { transition-delay: 0.3s; }
+[data-delay="400"] { transition-delay: 0.4s; }
+[data-delay="500"] { transition-delay: 0.5s; }
+[data-delay="600"] { transition-delay: 0.6s; }
+
+/* --- Keyframes --- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* --- Hero entrance --- */
+.hero__label { animation: fadeInUp 0.7s ease 0.2s both; }
+.hero__title { animation: fadeInUp 0.7s ease 0.35s both; }
+.hero__subtitle { animation: fadeInUp 0.7s ease 0.5s both; }
+.hero__actions { animation: fadeInUp 0.7s ease 0.65s both; }
+
+/* --- Gold text shimmer (for headings, optional class) --- */
+.text-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    var(--color-primary-light) 40%,
+    var(--color-primary) 60%,
+    var(--color-primary-light) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* --- Floating decoration (optional) --- */
+.float-anim { animation: float 4s ease-in-out infinite; }
+
+/* --- Count-up number animation --- */
+.counter { display: inline-block; }
+.counter.counting { animation: pulse 0.15s ease; }
+
+/* --- Line draw (for section dividers) --- */
+.divider--animated {
+  width: 0;
+  transition: width 0.8s ease;
+}
+.divider--animated.is-revealed { width: 3rem; }
+
+/* --- Hover lift --- */
+.hover-lift {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* --- Reduced motion --- */
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .hero__label, .hero__title, .hero__subtitle, .hero__actions {
+    animation: none;
+    opacity: 1;
+  }
+  .text-shimmer { animation: none; }
+  .float-anim { animation: none; }
+}
