@@ -105,7 +105,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 70% 50%, rgba(200,168,75,0.12) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 70% 50%, rgba(57,211,83,0.08) 0%, transparent 60%);
 }
 .hero__bg-text {
   position: absolute;
@@ -115,7 +115,7 @@
   font-family: var(--font-serif);
   font-size: clamp(8rem, 15vw, 18rem);
   font-weight: 700;
-  color: rgba(200,168,75,0.04);
+  color: rgba(57,211,83,0.04);
   line-height: 1;
   user-select: none;
   pointer-events: none;
@@ -296,7 +296,7 @@
 .industry-card__icon {
   width: 3rem;
   height: 3rem;
-  background: rgba(200,168,75,0.15);
+  background: rgba(57,211,83,0.12);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -333,7 +333,7 @@
 .feature-card__icon {
   width: 2.75rem;
   height: 2.75rem;
-  background: rgba(200,168,75,0.1);
+  background: rgba(57,211,83,0.1);
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -405,8 +405,8 @@
   align-items: center;
   gap: 0.875rem;
   padding: 1rem 1.5rem;
-  background: rgba(200,168,75,0.08);
-  border: 1px solid rgba(200,168,75,0.25);
+  background: rgba(57,211,83,0.08);
+  border: 1px solid rgba(57,211,83,0.25);
   border-radius: var(--radius-md);
 }
 .cert-badge__icon { font-size: 1.75rem; }
@@ -474,7 +474,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 30% 50%, rgba(200,168,75,0.15) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 30% 50%, rgba(57,211,83,0.12) 0%, transparent 60%);
 }
 .cta-banner__inner {
   position: relative;

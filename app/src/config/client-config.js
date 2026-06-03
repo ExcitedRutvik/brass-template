@@ -15,16 +15,16 @@ export const client = {
   },
 
   brand: {
-    // Theme B (Brass Editorial) — swap values below to use Theme A
-    primary: "#C8A84B",
-    primaryDark: "#A8882B",
-    primaryLight: "#E8C86B",
-    secondary: "#1A2B4A",
-    secondaryDark: "#0D1A2E",
-    secondaryLight: "#2A3B5A",
-    fontSerif: "'Playfair Display', Georgia, serif",
+    // Theme A (Dark GitHub/Green)
+    primary: "#39D353",
+    primaryDark: "#22B33C",
+    primaryLight: "#5EF070",
+    secondary: "#0D1117",
+    secondaryDark: "#010409",
+    secondaryLight: "#161B22",
+    fontSerif: "'Fraunces', Georgia, serif",
     fontSans: "'Inter', system-ui, sans-serif",
-    googleFonts: "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap",
+    googleFonts: "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700&family=Inter:wght@300;400;500;600;700&display=swap",
   },
 
   hero: {

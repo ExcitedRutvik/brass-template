@@ -4,31 +4,31 @@
    ============================================= */
 
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* --- CSS Variables (Theme B: Brass Editorial) --- */
+/* --- CSS Variables (Theme A: Dark GitHub/Green) --- */
 :root {
   /* Brand */
-  --color-primary: #C8A84B;
-  --color-primary-dark: #A8882B;
-  --color-primary-light: #E8C86B;
-  --color-secondary: #1A2B4A;
-  --color-secondary-dark: #0D1A2E;
-  --color-secondary-light: #2A3B5A;
+  --color-primary: #39D353;
+  --color-primary-dark: #22B33C;
+  --color-primary-light: #5EF070;
+  --color-secondary: #0D1117;
+  --color-secondary-dark: #010409;
+  --color-secondary-light: #161B22;
 
   /* Neutrals */
   --color-white: #FFFFFF;
-  --color-off-white: #FAF8F3;
-  --color-gray-50: #F8F7F4;
-  --color-gray-100: #F0EDE6;
-  --color-gray-200: #E0DAD0;
-  --color-gray-400: #9E9486;
-  --color-gray-600: #6B6358;
-  --color-gray-800: #2C2820;
-  --color-black: #0A0906;
+  --color-off-white: #F6F8FA;
+  --color-gray-50: #F6F8FA;
+  --color-gray-100: #EAEEF2;
+  --color-gray-200: #D0D7DE;
+  --color-gray-400: #8B949E;
+  --color-gray-600: #57606A;
+  --color-gray-800: #24292F;
+  --color-black: #010409;
 
   /* Typography */
-  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-serif: 'Fraunces', Georgia, serif;
   --font-sans: 'Inter', system-ui, sans-serif;
 
   /* Sizing */
@@ -40,7 +40,7 @@
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
   --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
   --shadow-lg: 0 8px 32px rgba(0,0,0,0.16);
-  --shadow-gold: 0 4px 24px rgba(200,168,75,0.25);
+  --shadow-gold: 0 4px 24px rgba(57,211,83,0.3);
 
   /* Transitions */
   --transition-fast: 150ms ease;
