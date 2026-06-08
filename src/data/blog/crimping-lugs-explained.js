@@ -1,0 +1,40 @@
+export const post = {
+  slug: 'crimping-lugs-explained',
+  title: 'Crimping Lugs Explained: Sizes, Materials & Selection',
+  metaTitle: 'Crimping Lugs Manufacturer & Guide | Deepak Products',
+  metaDescription:
+    'Everything about crimping lugs — types, sizing, materials, and crimping best practice. Source quality brass cable lugs from a Jamnagar manufacturer.',
+  keywords: 'crimping lugs, brass cable lugs, cable connection lugs manufacturer India, copper crimp lugs',
+  category: 'Electrical',
+  date: '2025-02-26',
+  author: 'Deepak Products',
+  readTime: '7 min',
+  heroImage: '/assets/img/home_products/crimping_lugs.jpg',
+  excerpt:
+    'A crimping lug is a small part with a big job: a secure, low-resistance cable termination. Here is how to size, select, and crimp them correctly.',
+  body: [
+    { type: 'p', text: '[Crimping lugs](/products/crimping-lugs) terminate a cable to a stud, bar, or terminal with a permanent, gas-tight connection. Get the lug or the crimp wrong and you risk heat, voltage drop, and failure. This guide covers selection and best practice.' },
+    { type: 'h2', text: 'How Crimping Lugs Work' },
+    { type: 'p', text: 'The cable is stripped and inserted into the lug barrel, which is then compressed with a crimping tool. A proper crimp cold-welds the strands to the barrel, creating a connection that is mechanically strong and electrically continuous — often better than soldering for power applications.' },
+    { type: 'h2', text: 'Materials: Brass vs Copper vs Aluminium' },
+    { type: 'p', text: 'Brass lugs offer strength, corrosion resistance, and economy, and are widely used across the [electrical industry](/industries). Pure copper lugs maximise conductivity for heavy power cables. Aluminium lugs suit aluminium conductors. Match the lug material to the conductor to avoid galvanic corrosion.' },
+    { type: 'h2', text: 'Sizing a Crimping Lug' },
+    { type: 'ul', items: [
+      'Match the barrel to the conductor cross-section (e.g. 2.5, 6, 16, 50 sq mm)',
+      'Match the stud hole to the bolt size (M5, M6, M8, M10)',
+      'Confirm the current rating for the application',
+      'Choose insulated or non-insulated as required',
+    ]},
+    { type: 'h2', text: 'Crimping Best Practice' },
+    { type: 'p', text: 'Use the correct die for the lug size, apply a full crimp cycle, and inspect for a clean, symmetrical compression. A loose or partial crimp is the most common cause of terminal failure in the field.' },
+  ],
+  faq: [
+    { q: 'What is the difference between a crimping lug and a soldered terminal?', a: 'A crimp creates a cold-welded, gas-tight mechanical connection ideal for power cables, while soldering relies on molten alloy. Crimping is faster and often more reliable for high-current terminations.' },
+    { q: 'How do I choose the right lug size?', a: 'Match the barrel to the conductor cross-section and the stud hole to your bolt size, then confirm the current rating.' },
+    { q: 'Should I use brass or copper lugs?', a: 'Brass lugs are strong, corrosion-resistant, and economical; copper maximises conductivity for heavy power cables. Match lug material to conductor material.' },
+    { q: 'Can crimping lugs be plated?', a: 'Yes, tin plating is common to improve corrosion resistance and contact performance.' },
+    { q: 'Do you supply crimping lugs in bulk for export?', a: 'Yes, Deepak Products manufactures and exports brass crimping lugs in a full range of sizes.' },
+  ],
+  relatedProducts: ['crimping-lugs', 'brass-electrical-components', 'brass-turned-components'],
+  relatedPosts: ['brass-electrical-components-guide', 'brass-terminals-earthing-accessories', 'modular-socket-switch-parts-guide'],
+};

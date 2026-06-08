@@ -1,0 +1,40 @@
+export const post = {
+  slug: 'brass-moulding-inserts-guide',
+  title: 'Brass Moulding Inserts: Heat-Set, Ultrasonic & Press-Fit',
+  metaTitle: 'Brass Moulding Inserts Manufacturer | Deepak Products',
+  metaDescription:
+    'A guide to brass moulding inserts for plastics — heat-set, ultrasonic, and press-fit types, knurl patterns, and how to choose the right insert.',
+  keywords: 'brass moulding inserts, threaded inserts for plastic, heat set inserts, brass inserts manufacturer India',
+  category: 'Manufacturing',
+  date: '2025-03-19',
+  author: 'Deepak Products',
+  readTime: '6 min',
+  heroImage: '/assets/img/home_products/brass_turned_components.jpg',
+  excerpt:
+    'Brass inserts give plastic parts strong, reusable metal threads. Here is how the main insert types differ and how to specify the right one.',
+  body: [
+    { type: 'p', text: 'Plastics cannot hold a screw thread the way metal can. Brass moulding inserts solve this by embedding a durable, reusable thread into a plastic part. They appear in everything from appliance housings to automotive trim. This guide covers the three main installation types.' },
+    { type: 'h2', text: 'Heat-Set Inserts' },
+    { type: 'p', text: 'Installed with a heated tip that melts the surrounding plastic so the insert sinks in and the plastic re-flows around the knurls. Heat-set inserts give excellent pull-out and torque performance and are the go-to for thermoplastics. They pair naturally with our [brass turned components](/products/brass-turned-components) capability.' },
+    { type: 'h2', text: 'Ultrasonic Inserts' },
+    { type: 'p', text: 'Similar to heat-set but installed with ultrasonic vibration, which generates localised heat. Fast and clean, ultrasonic installation suits high-volume automated assembly.' },
+    { type: 'h2', text: 'Press-Fit Inserts' },
+    { type: 'p', text: 'Pressed in cold, relying on the knurl gripping the bore. Simplest to install but lower pull-out strength — best for low-load applications or moulded-in use.' },
+    { type: 'h2', text: 'Choosing the Right Insert' },
+    { type: 'ul', items: [
+      'Match thread size and length to the screw and load',
+      'Pick the knurl pattern for the required torque and pull-out',
+      'Choose installation type for your assembly process',
+      'Confirm brass grade and any plating',
+    ]},
+  ],
+  faq: [
+    { q: 'What are brass moulding inserts used for?', a: 'They provide strong, reusable metal threads in plastic parts, preventing thread stripping in housings, trim, and assemblies.' },
+    { q: 'What is the difference between heat-set and press-fit inserts?', a: 'Heat-set inserts melt into the plastic for high pull-out strength; press-fit inserts are pressed in cold and suit lighter loads.' },
+    { q: 'Which insert type is best for high-volume assembly?', a: 'Ultrasonic and heat-set inserts both support automated, high-volume installation. Ultrasonic is especially fast and clean.' },
+    { q: 'Can inserts be made to custom dimensions?', a: 'Yes, Deepak Products manufactures brass inserts to custom thread sizes, lengths, and knurl patterns.' },
+    { q: 'What knurl pattern should I choose?', a: 'Straight, diamond, and helical knurls trade off torque vs pull-out resistance; the right pattern depends on your load case.' },
+  ],
+  relatedProducts: ['brass-turned-components', 'customized-components', 'brass-electrical-components'],
+  relatedPosts: ['brass-turned-components-cnc', 'brass-vs-ms-washers', 'sheet-metal-stamping-components-guide'],
+};

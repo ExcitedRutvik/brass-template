@@ -1,0 +1,41 @@
+export const post = {
+  slug: 'brass-vs-ms-washers',
+  title: 'Brass vs MS Washers: Material Selection for Fasteners',
+  metaTitle: 'Brass vs MS Washers | Material Selection Guide | Deepak Products',
+  metaDescription:
+    'Brass vs mild steel washers — conductivity, corrosion resistance, strength, and cost compared. How to choose the right washer material for your application.',
+  keywords: 'brass vs MS washers, brass washers manufacturer, mild steel washers, washer material selection India',
+  category: 'Manufacturing',
+  date: '2025-05-22',
+  author: 'Deepak Products',
+  readTime: '5 min',
+  heroImage: '/assets/img/home_products/customized_components.jpg',
+  excerpt:
+    'A washer seems trivial until the wrong material fails. Here is a clear comparison of brass and mild steel washers to guide your choice.',
+  body: [
+    { type: 'p', text: 'Washers distribute load, prevent loosening, and protect surfaces. Choosing between brass and mild steel (MS) comes down to the application. This short guide compares the two so you specify the right [washer](/products/customized-components) the first time.' },
+    { type: 'h2', text: 'Brass Washers' },
+    { type: 'p', text: 'Brass washers conduct electricity, resist corrosion, and look good. They are the default in electrical assemblies — pairing naturally with [brass electrical components](/products/brass-electrical-components) — and in decorative or marine settings. They are softer than steel, so they suit lower-load joints.' },
+    { type: 'h2', text: 'MS Washers' },
+    { type: 'p', text: 'Mild steel washers are stronger and cheaper, ideal for high-load structural joints where conductivity and corrosion are not concerns. They are usually plated (zinc) for basic corrosion protection.' },
+    { type: 'h2', text: 'Side-by-Side Comparison' },
+    { type: 'ul', items: [
+      'Conductivity — brass wins',
+      'Corrosion resistance — brass wins',
+      'Strength / load — MS wins',
+      'Cost — MS wins',
+      'Appearance — brass wins',
+    ]},
+    { type: 'h2', text: 'How to Choose' },
+    { type: 'p', text: 'Use brass for electrical, decorative, and corrosion-prone joints; use MS for high-load structural fastening. When in doubt, share the application and we will recommend the right grade. Deepak Products manufactures both brass and MS washers to standard and custom sizes.' },
+  ],
+  faq: [
+    { q: 'When should I use a brass washer instead of steel?', a: 'Use brass where conductivity, corrosion resistance, or appearance matter — typically electrical, decorative, or marine joints.' },
+    { q: 'Are MS washers stronger than brass?', a: 'Yes, mild steel washers are stronger and better for high-load structural joints, but they lack brass’s conductivity and corrosion resistance.' },
+    { q: 'Do MS washers need plating?', a: 'Usually yes — zinc plating gives mild steel washers basic corrosion protection.' },
+    { q: 'Can you make custom washer sizes?', a: 'Yes, Deepak Products manufactures brass and MS washers in standard and custom dimensions.' },
+    { q: 'Which washer is more economical?', a: 'Mild steel washers are generally cheaper; brass costs more but adds conductivity and corrosion resistance.' },
+  ],
+  relatedProducts: ['customized-components', 'brass-electrical-components', 'brass-turned-components'],
+  relatedPosts: ['brass-moulding-inserts-guide', 'sheet-metal-stamping-components-guide', 'brass-turned-components-cnc'],
+};

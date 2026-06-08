@@ -1,0 +1,41 @@
+export const post = {
+  slug: 'mcb-parts-manufacturing-india',
+  title: 'MCB Parts Manufacturing in India: What Buyers Should Know',
+  metaTitle: 'MCB Parts Manufacturer in India | Deepak Products Jamnagar',
+  metaDescription:
+    'How MCB parts are manufactured in India — terminal cages, bi-metal strips, contacts. Quality standards, materials, and sourcing from a Jamnagar manufacturer.',
+  keywords: 'MCB parts manufacturer India, MCB terminal cage, miniature circuit breaker components, MCB parts Jamnagar',
+  category: 'Electrical',
+  date: '2025-01-20',
+  author: 'Deepak Products',
+  readTime: '7 min',
+  heroImage: '/assets/img/home_products/mcb_part.jpg',
+  excerpt:
+    'Miniature circuit breakers rely on dozens of precision-stamped brass and steel parts. Here is how they are made and what to look for in an MCB parts supplier.',
+  body: [
+    { type: 'p', text: 'A miniature circuit breaker (MCB) is only as reliable as the precision parts inside it. [MCB parts](/products/mcb-parts) — terminal cages, bi-metal strips, contacts, and trip mechanisms — must perform flawlessly across thousands of switching cycles. India, and Jamnagar in particular, has become a major source of these components for switchgear manufacturers worldwide.' },
+    { type: 'h2', text: 'Key Components Inside an MCB' },
+    { type: 'ul', items: [
+      'Terminal cage — clamps the incoming conductor securely',
+      'Bi-metal strip — bends under sustained overload to trip the breaker',
+      'Fixed and moving contacts — carry and break the current',
+      'Arc chute plates — extinguish the arc on disconnection',
+      'Springs and trip levers — drive the mechanism',
+    ]},
+    { type: 'h2', text: 'Materials and Why They Matter' },
+    { type: 'p', text: 'Terminal cages and contacts are typically stamped from high-grade brass for its conductivity and corrosion resistance — the same material family used across our [brass electrical components](/products/brass-electrical-components) range. Bi-metal strips use precisely calibrated alloy laminates so the trip point stays consistent. Material consistency is non-negotiable; a small variation changes the trip characteristics.' },
+    { type: 'h2', text: 'Quality Control in MCB Part Production' },
+    { type: 'p', text: 'Reputable manufacturers run incoming material checks, in-process dimensional inspection, and final batch testing under an ISO 9001:2015 system. For safety-critical parts like these, traceability matters: you should be able to trace a batch back to its material certificate.' },
+    { type: 'h2', text: 'Sourcing MCB Parts from Jamnagar' },
+    { type: 'p', text: 'Jamnagar combines brass expertise with precision stamping capacity, making it ideal for MCB component sourcing. Look for a supplier with in-house tooling, documented quality systems, and experience supplying the [electrical industry](/industries). Read our guide to [choosing a manufacturer in Jamnagar](/blog/choosing-manufacturer-jamnagar) for a sourcing checklist.' },
+  ],
+  faq: [
+    { q: 'What are MCB parts made of?', a: 'Terminal cages and contacts are usually high-grade brass; bi-metal strips use calibrated alloy laminates. Material consistency is critical to reliable trip behaviour.' },
+    { q: 'Can MCB parts be custom-manufactured to my design?', a: 'Yes. Deepak Products manufactures MCB components to customer drawings and samples, including custom terminal cages and contacts.' },
+    { q: 'What quality standards apply to MCB components?', a: 'ISO 9001:2015 quality management plus dimensional and material traceability are standard for safety-critical MCB parts.' },
+    { q: 'Why is brass used for MCB terminal cages?', a: 'Brass offers excellent electrical conductivity, corrosion resistance, and the machinability needed to hold tight tolerances on clamping parts.' },
+    { q: 'Do you supply MCB parts for export?', a: 'Yes, Deepak Products exports MCB and electrical components to clients across 10+ countries with full export documentation.' },
+  ],
+  relatedProducts: ['mcb-parts', 'brass-electrical-components', 'modular-socket-parts'],
+  relatedPosts: ['brass-electrical-components-guide', 'sheet-metal-stamping-components-guide', 'brass-terminals-earthing-accessories'],
+};

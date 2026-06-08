@@ -1,0 +1,41 @@
+export const post = {
+  slug: 'brass-electrical-components-guide',
+  title: 'Brass Electrical Components: Types, Uses & Selection',
+  metaTitle: 'Brass Electrical Components Manufacturer | Deepak Products',
+  metaDescription:
+    'A guide to brass electrical components — lugs, pins, terminals, connectors. Why brass is the material of choice and how to select quality parts from India.',
+  keywords: 'brass electrical components, brass terminals, brass pins, brass connectors manufacturer India',
+  category: 'Electrical',
+  date: '2025-02-03',
+  author: 'Deepak Products',
+  readTime: '7 min',
+  heroImage: '/assets/img/home_products/electrical_components.jpg',
+  excerpt:
+    'Brass dominates electrical component manufacturing for good reason. Here is a practical guide to the main types, their applications, and how to choose a supplier.',
+  body: [
+    { type: 'p', text: 'From the [crimping lugs](/products/crimping-lugs) on a cable end to the pins in a modular switch, [brass electrical components](/products/brass-electrical-components) are the connective tissue of every electrical system. This guide covers the main families, why brass wins as a material, and what separates a good supplier from a great one.' },
+    { type: 'h2', text: 'Why Brass for Electrical Parts?' },
+    { type: 'p', text: 'Brass combines high electrical and thermal conductivity with excellent corrosion resistance and easy machinability. It holds threads well, resists the loosening that plagues cheaper materials, and takes plating (nickel, tin, silver) readily for enhanced performance. For most low- and medium-voltage applications, it is the optimal balance of performance and cost.' },
+    { type: 'h2', text: 'Main Types of Brass Electrical Components' },
+    { type: 'ul', items: [
+      'Terminals and terminal blocks — connection points for conductors',
+      'Pins and sockets — for modular switches and plugs',
+      'Cable lugs and crimping lugs — terminate cables to studs and bars',
+      'Earth tags and earthing accessories — bonding and safety grounding',
+      'Connectors and bus-bar components — distribute current in panels',
+    ]},
+    { type: 'h2', text: 'Selecting the Right Component' },
+    { type: 'p', text: 'Match the current rating, conductor size, and environment to the part. Outdoor or marine environments demand higher corrosion resistance and often plating. For safety grounding, see our guide to [brass terminals and earthing accessories](/blog/brass-terminals-earthing-accessories).' },
+    { type: 'h2', text: 'Quality and Compliance' },
+    { type: 'p', text: 'Look for consistent material grade, clean threads, accurate dimensions, and an ISO 9001:2015 quality system. These parts serve the [electrical and telecommunication industries](/industries) where a single failed connection can take down a system.' },
+  ],
+  faq: [
+    { q: 'What grade of brass is used for electrical components?', a: 'Free-cutting and high-conductivity brass grades are common, selected for conductivity, corrosion resistance, and machinability. The exact grade depends on the application.' },
+    { q: 'Can brass electrical components be plated?', a: 'Yes. Nickel, tin, and silver plating are commonly applied to improve corrosion resistance and contact performance.' },
+    { q: 'Do you manufacture custom brass connectors?', a: 'Yes, Deepak Products manufactures brass electrical components to customer drawings, samples, and specifications.' },
+    { q: 'Are brass components suitable for outdoor use?', a: 'Brass resists corrosion well; for harsh or marine environments, plated or dezincification-resistant grades are recommended.' },
+    { q: 'What industries use brass electrical components?', a: 'Electrical equipment, telecommunications, automobiles, home appliances, and switchgear manufacturers all rely heavily on brass components.' },
+  ],
+  relatedProducts: ['brass-electrical-components', 'crimping-lugs', 'mcb-parts'],
+  relatedPosts: ['crimping-lugs-explained', 'brass-terminals-earthing-accessories', 'mcb-parts-manufacturing-india'],
+};

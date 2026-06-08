@@ -1,0 +1,41 @@
+export const post = {
+  slug: 'modular-socket-switch-parts-guide',
+  title: 'Modular Socket & Switch Parts: A Sourcing Guide',
+  metaTitle: 'Modular Socket & Switch Parts Manufacturer | Deepak Products',
+  metaDescription:
+    'Sourcing modular socket and switch parts — 6A, 16A, 6-13A brass components, pins and terminals. What to specify and how to choose a manufacturer.',
+  keywords: 'modular socket parts, modular switch parts, brass pins, 6A 16A socket components manufacturer India',
+  category: 'Electrical',
+  date: '2025-02-14',
+  author: 'Deepak Products',
+  readTime: '6 min',
+  heroImage: '/assets/img/home_products/modular_socket_parts.jpg',
+  excerpt:
+    'Modular wiring accessories depend on precise brass internals. Here is what to specify when sourcing socket and switch parts at 6A, 16A, and 6-13A ratings.',
+  body: [
+    { type: 'p', text: 'The modular switch on your wall hides a surprising amount of precision engineering. [Modular socket parts](/products/modular-socket-parts) — pins, terminals, contact strips — must deliver reliable contact across years of daily use. This guide helps wiring-accessory brands specify and source these components.' },
+    { type: 'h2', text: 'Common Ratings and Parts' },
+    { type: 'p', text: 'Indian modular accessories typically come in 6A, 16A, and combined 6-13A ratings. Each rating demands a specific contact geometry and material thickness to carry current without overheating. Core parts include socket pins, shutter mechanisms, contact strips, and brass terminals.' },
+    { type: 'h2', text: 'Material and Contact Design' },
+    { type: 'p', text: 'Brass is standard for its conductivity and spring retention. The contact must grip the plug pin firmly enough for low resistance but not so tightly that insertion becomes difficult. Good manufacturers tune this through precise stamping and forming — the same discipline behind our [brass electrical components](/products/brass-electrical-components).' },
+    { type: 'h2', text: 'What to Specify' },
+    { type: 'ul', items: [
+      'Current rating (6A / 16A / 6-13A)',
+      'Brass grade and any plating requirement',
+      'Contact force and insertion-withdrawal spec',
+      'Mounting and housing compatibility',
+      'Volume and delivery schedule',
+    ]},
+    { type: 'h2', text: 'Choosing a Supplier' },
+    { type: 'p', text: 'Prioritise a manufacturer with in-house tooling and stamping, consistent material sourcing, and electrical-industry experience. Deepak Products supplies modular socket and switch internals to accessory brands across India and abroad.' },
+  ],
+  faq: [
+    { q: 'What current ratings do modular socket parts come in?', a: 'Most commonly 6A, 16A, and combined 6-13A. Each rating requires specific contact geometry and material thickness.' },
+    { q: 'Why is brass used for socket and switch parts?', a: 'Brass provides the conductivity and spring retention needed for reliable, low-resistance contact over long service life.' },
+    { q: 'Can you manufacture socket parts to our housing design?', a: 'Yes. We manufacture modular socket and switch internals to match your housing and contact specifications.' },
+    { q: 'Do socket parts need plating?', a: 'Plating is optional and used where enhanced corrosion resistance or contact performance is required.' },
+    { q: 'What is the lead time for modular socket parts?', a: 'Lead time depends on tooling status and volume. Contact us with your specification for a delivery schedule.' },
+  ],
+  relatedProducts: ['modular-socket-parts', 'brass-electrical-components', 'mcb-parts'],
+  relatedPosts: ['brass-electrical-components-guide', 'mcb-parts-manufacturing-india', 'crimping-lugs-explained'],
+};

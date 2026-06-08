@@ -1,0 +1,41 @@
+export const post = {
+  slug: 'brass-turned-components-cnc',
+  title: 'Brass Turned Components & CNC Precision Machining',
+  metaTitle: 'Brass Turned Components Manufacturer | CNC Precision | Deepak',
+  metaDescription:
+    'How brass turned components are CNC-machined to tight tolerances. Applications, tolerances, and sourcing precision turned parts from Jamnagar, India.',
+  keywords: 'brass turned components, CNC turned parts, precision machined brass, brass turning manufacturer India',
+  category: 'Manufacturing',
+  date: '2025-03-08',
+  author: 'Deepak Products',
+  readTime: '7 min',
+  heroImage: '/assets/img/home_products/brass_turned_components.jpg',
+  excerpt:
+    'CNC turning produces precise cylindrical brass parts at scale. Here is how the process works, what tolerances are achievable, and how to source turned components.',
+  body: [
+    { type: 'p', text: '[Brass turned components](/products/brass-turned-components) are everywhere precision cylindrical parts are needed — connector bodies, spacers, nozzles, inserts, and shafts. CNC turning lets a manufacturer hold tight tolerances across huge production runs. This guide explains the process and what to look for.' },
+    { type: 'h2', text: 'What Is CNC Turning?' },
+    { type: 'p', text: 'In turning, the brass bar rotates while a computer-controlled cutting tool removes material to create the desired profile. Modern Swiss-type and multi-spindle lathes run unattended, producing thousands of identical parts with tolerances down to a few microns. Secondary operations — cross-drilling, threading, knurling — can be performed in the same cycle.' },
+    { type: 'h2', text: 'Typical Tolerances and Finishes' },
+    { type: 'p', text: 'Precision turning routinely holds ±0.01–0.02mm on critical diameters. Surface finishes can be controlled for sealing or cosmetic needs, and parts can be plated or passivated afterward. Consistency across the batch is the real test of a good turning shop.' },
+    { type: 'h2', text: 'Applications' },
+    { type: 'ul', items: [
+      'Connector and terminal bodies for the [electrical industry](/industries)',
+      'Fittings and adapters for plumbing and pneumatics',
+      'Automotive sensor and fuel-system parts',
+      '[Brass moulding inserts](/products/brass-turned-components) and threaded bushes',
+      'Custom shafts, spacers, and precision pins',
+    ]},
+    { type: 'h2', text: 'Sourcing Turned Components' },
+    { type: 'p', text: 'Send your drawing or a sample. A capable manufacturer will advise on material grade, tolerancing, and cost-down opportunities. Deepak Products machines brass turned components to exact specification for clients across the [automobile](/blog/brass-components-automobile-industry) and electrical sectors.' },
+  ],
+  faq: [
+    { q: 'What tolerances can CNC turning achieve on brass?', a: 'Precision turning routinely holds ±0.01–0.02mm on critical diameters, with finer tolerances possible on specific features.' },
+    { q: 'Can turned parts include threads and cross-holes?', a: 'Yes. Modern CNC lathes perform threading, cross-drilling, knurling, and other secondary operations in the same cycle.' },
+    { q: 'Do you machine parts from customer drawings?', a: 'Yes, Deepak Products manufactures brass turned components to customer drawings and samples.' },
+    { q: 'Can turned brass parts be plated?', a: 'Yes, plating and passivation are available for corrosion resistance or cosmetic requirements.' },
+    { q: 'What volumes are economical for CNC turning?', a: 'CNC turning is economical from prototype quantities to high-volume production; per-part cost falls with volume.' },
+  ],
+  relatedProducts: ['brass-turned-components', 'customized-components', 'crimping-lugs'],
+  relatedPosts: ['brass-moulding-inserts-guide', 'brass-components-automobile-industry', 'sheet-metal-stamping-components-guide'],
+};

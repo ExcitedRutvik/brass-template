@@ -1,0 +1,41 @@
+export const post = {
+  slug: 'brass-terminals-earthing-accessories',
+  title: 'Brass Terminals & Earthing Accessories: A Safety Guide',
+  metaTitle: 'Brass Terminals & Earthing Accessories | Deepak Products',
+  metaDescription:
+    'A safety-focused guide to brass terminals and earthing accessories — earth tags, clamps, and bonding parts. Why brass, and how to select quality earthing components.',
+  keywords: 'brass terminals, earthing accessories, brass earth tag, electrical earthing components manufacturer India',
+  category: 'Electrical',
+  date: '2025-05-10',
+  author: 'Deepak Products',
+  readTime: '7 min',
+  heroImage: '/assets/img/home_products/electrical_components.jpg',
+  excerpt:
+    'Earthing is the silent guardian of every electrical installation. Here is how brass terminals and earthing accessories keep systems and people safe.',
+  body: [
+    { type: 'p', text: 'Earthing protects people and equipment by giving fault current a safe path to ground. The humble [brass earth tag](/products/brass-electrical-components) and terminal are central to that job. This guide explains the main earthing accessories and why brass is the material of choice.' },
+    { type: 'h2', text: 'Why Brass for Earthing?' },
+    { type: 'p', text: 'Earthing connections must stay low-resistance for decades, often outdoors or buried. Brass resists corrosion, maintains conductivity, and holds a solid mechanical clamp — exactly what a long-life earth connection needs. Cheaper materials corrode and lose contact over time.' },
+    { type: 'h2', text: 'Common Earthing Accessories' },
+    { type: 'ul', items: [
+      'Earth tags and bonding tags',
+      'Earth clamps for rods and pipes',
+      'Terminal connectors and lugs',
+      'Bus-bar links and bonding straps',
+      '[Crimping lugs](/products/crimping-lugs) for earth conductors',
+    ]},
+    { type: 'h2', text: 'Selecting Earthing Components' },
+    { type: 'p', text: 'Size the component to the earth conductor and the fault current. For outdoor or buried use, prioritise corrosion resistance and consider plating. Quality matters here more than almost anywhere — read our [brass electrical components guide](/blog/brass-electrical-components-guide) for material selection.' },
+    { type: 'h2', text: 'Quality and Compliance' },
+    { type: 'p', text: 'Earthing parts are safety-critical. Source from an ISO 9001:2015 manufacturer with consistent material grade and dimensional control. Deepak Products supplies brass terminals and earthing accessories to the [electrical industry](/industries) across India and abroad.' },
+  ],
+  faq: [
+    { q: 'Why is brass used for earthing accessories?', a: 'Brass stays low-resistance and corrosion-resistant for decades, even outdoors or buried, while holding a solid mechanical clamp.' },
+    { q: 'What is a brass earth tag?', a: 'A brass tag used to bond and connect earth conductors to equipment or structures for electrical safety.' },
+    { q: 'Should earthing components be plated?', a: 'For harsh, outdoor, or buried environments, plating adds corrosion protection and extends service life.' },
+    { q: 'How do I size an earthing accessory?', a: 'Match it to the earth conductor cross-section and the expected fault current for the installation.' },
+    { q: 'Do you manufacture custom earthing parts?', a: 'Yes, Deepak Products manufactures brass terminals and earthing accessories to customer specifications.' },
+  ],
+  relatedProducts: ['brass-electrical-components', 'crimping-lugs', 'mcb-parts'],
+  relatedPosts: ['brass-electrical-components-guide', 'crimping-lugs-explained', 'mcb-parts-manufacturing-india'],
+};

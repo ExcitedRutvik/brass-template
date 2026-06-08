@@ -1,0 +1,42 @@
+export const post = {
+  slug: 'choosing-manufacturer-jamnagar',
+  title: 'Choosing a Sheet Metal & Brass Manufacturer in Jamnagar',
+  metaTitle: 'How to Choose a Brass Manufacturer in Jamnagar | Deepak Products',
+  metaDescription:
+    'A practical checklist for choosing a sheet metal and brass components manufacturer in Jamnagar, India — certifications, capability, quality, and export readiness.',
+  keywords: 'brass manufacturer Jamnagar, sheet metal manufacturer India, how to choose brass supplier, Jamnagar brass components',
+  category: 'Sourcing',
+  date: '2025-04-15',
+  author: 'Deepak Products',
+  readTime: '8 min',
+  heroImage: '/assets/img/about/factory.jpg',
+  excerpt:
+    'Jamnagar has hundreds of brass and metal units. This checklist helps you separate a reliable manufacturing partner from a one-off vendor.',
+  body: [
+    { type: 'p', text: 'Jamnagar, Gujarat produces a large share of the world’s brass components. That depth of choice is a blessing and a challenge — how do you pick the right partner? This checklist, drawn from four decades in the trade, will help.' },
+    { type: 'h2', text: '1. Certifications and Credit Standing' },
+    { type: 'p', text: 'Start with ISO 9001:2015 for quality management. A D-U-N-S® number and NSIC rating signal a verified, credit-worthy business — the kind that will still be there for your repeat orders. Deepak Products carries all three.' },
+    { type: 'h2', text: '2. In-House Tooling and Capability' },
+    { type: 'p', text: 'A manufacturer with its own tool room controls quality and lead time. Ask whether stamping, [CNC turning](/blog/brass-turned-components-cnc), and finishing are in-house or outsourced. In-house capability across [the product range](/products) means fewer hand-offs and tighter control.' },
+    { type: 'h2', text: '3. Quality Systems You Can Audit' },
+    { type: 'ul', items: [
+      'Incoming material inspection and certificates',
+      'In-process dimensional checks',
+      'Final batch testing and traceability',
+      'Documented corrective-action process',
+    ]},
+    { type: 'h2', text: '4. Industry Experience' },
+    { type: 'p', text: 'A supplier who already serves your sector — [automobile](/blog/brass-components-automobile-industry), electrical, telecom, healthcare — understands your standards and failure modes. Review their [industries served](/industries) and ask for relevant references.' },
+    { type: 'h2', text: '5. Export Readiness' },
+    { type: 'p', text: 'If you import, confirm export experience, documentation, packaging, and logistics. A manufacturer shipping to 10+ countries has the systems to deliver reliably across borders.' },
+  ],
+  faq: [
+    { q: 'Why source brass components from Jamnagar?', a: 'Jamnagar offers a mature ecosystem of foundries, tool rooms, and stamping units, skilled labour, competitive pricing, and strong export infrastructure.' },
+    { q: 'What certifications should a manufacturer have?', a: 'ISO 9001:2015 for quality, plus business-standing credentials like a D-U-N-S® number and NSIC rating.' },
+    { q: 'Should the manufacturer have in-house tooling?', a: 'Yes — in-house tooling and machining give better control over quality and lead time than outsourced production.' },
+    { q: 'How do I verify quality before ordering?', a: 'Ask for the quality system documentation, sample inspection reports, material certificates, and references in your industry.' },
+    { q: 'Can Deepak Products handle export orders?', a: 'Yes, Deepak Products exports to 10+ countries with full documentation and packaging support.' },
+  ],
+  relatedProducts: ['customized-components', 'mcb-parts', 'brass-turned-components'],
+  relatedPosts: ['sheet-metal-stamping-components-guide', 'brass-components-automobile-industry', 'mcb-parts-manufacturing-india'],
+};

@@ -1,0 +1,41 @@
+export const post = {
+  slug: 'deep-draw-sheet-metal-products',
+  title: 'Deep Draw Sheet Metal Products: Process & Applications',
+  metaTitle: 'Deep Draw Sheet Metal Manufacturer | Deepak Products',
+  metaDescription:
+    'How deep drawing forms cups, shells, and enclosures from flat metal. Process, design tips, and applications for deep-drawn components.',
+  keywords: 'deep draw sheet metal, deep drawing process, deep drawn components manufacturer India, metal shells enclosures',
+  category: 'Manufacturing',
+  date: '2025-04-02',
+  author: 'Deepak Products',
+  readTime: '6 min',
+  heroImage: '/assets/img/home_products/customized_components.jpg',
+  excerpt:
+    'Deep drawing turns flat sheet into seamless three-dimensional shells. Here is how the process works and where deep-drawn parts excel.',
+  body: [
+    { type: 'p', text: 'Deep drawing is a specialised [sheet metal](/blog/sheet-metal-stamping-components-guide) process that forms flat blanks into seamless cups, cans, shells, and enclosures. Battery cans, sensor housings, and lamp reflectors are all deep-drawn. This guide explains the process and its design considerations.' },
+    { type: 'h2', text: 'How Deep Drawing Works' },
+    { type: 'p', text: 'A punch forces a metal blank into a die cavity, drawing the material into a three-dimensional shape without cutting it. When the depth exceeds the diameter, multiple "redraw" stages reduce the diameter progressively. The result is a strong, seamless part with no welds or joints.' },
+    { type: 'h2', text: 'Advantages of Deep-Drawn Parts' },
+    { type: 'ul', items: [
+      'Seamless, leak-proof construction',
+      'High strength-to-weight ratio',
+      'Excellent surface finish',
+      'Economical at volume once tooled',
+      'Wide material range — brass, steel, aluminium',
+    ]},
+    { type: 'h2', text: 'Design Considerations' },
+    { type: 'p', text: 'Generous corner radii, appropriate material ductility, and correct blank size are essential to avoid tearing or wrinkling. An experienced manufacturer will review your design for drawability before tooling — saving costly iterations.' },
+    { type: 'h2', text: 'Applications' },
+    { type: 'p', text: 'Deep-drawn parts serve the [automobile](/blog/brass-components-automobile-industry), electrical, and appliance industries — anywhere a seamless metal enclosure or shell is needed. Deepak Products produces deep-draw components alongside its stamping and machining lines.' },
+  ],
+  faq: [
+    { q: 'What is deep drawing in sheet metal?', a: 'A forming process where a punch draws a flat blank into a die to create a seamless three-dimensional shape such as a cup or shell.' },
+    { q: 'What products are made by deep drawing?', a: 'Battery cans, sensor housings, lamp reflectors, enclosures, and many seamless metal shells.' },
+    { q: 'Which materials can be deep drawn?', a: 'Ductile materials including brass, mild steel, stainless steel, and aluminium are commonly deep drawn.' },
+    { q: 'What is a redraw operation?', a: 'When a part is deeper than its diameter, redraw stages progressively reduce the diameter to reach the final depth without tearing.' },
+    { q: 'Can you make custom deep-drawn parts?', a: 'Yes, Deepak Products manufactures custom deep-draw components to customer drawings.' },
+  ],
+  relatedProducts: ['customized-components', 'mcb-parts', 'brass-electrical-components'],
+  relatedPosts: ['sheet-metal-stamping-components-guide', 'brass-components-automobile-industry', 'choosing-manufacturer-jamnagar'],
+};
