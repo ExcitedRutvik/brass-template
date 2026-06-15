@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "sitemap": "node scripts/generate-sitemap.mjs",
-    "prebuild": "node scripts/generate-sitemap.mjs"
+    "prebuild": "node scripts/optimize-images.mjs && node scripts/generate-sitemap.mjs",
+    "images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.17.0",
@@ -27,6 +28,7 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "sharp": "^0.34.5",
     "vite": "^8.0.12"
   }
 }

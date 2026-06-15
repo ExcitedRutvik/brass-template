@@ -9,7 +9,7 @@ export const post = {
   date: '2025-05-22',
   author: 'Deepak Products',
   readTime: '5 min',
-  heroImage: '/assets/img/home_products/customized_components.jpg',
+  heroImage: '/assets/img/products/brass_hex_nuts_and_bolts.jpg',
   excerpt:
     'A washer seems trivial until the wrong material fails. Here is a clear comparison of brass and mild steel washers to guide your choice.',
   body: [

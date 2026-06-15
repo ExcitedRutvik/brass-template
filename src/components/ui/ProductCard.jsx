@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import Picture from './Picture';
 
 export default function ProductCard({ product, delay = 0 }) {
   return (
@@ -10,10 +11,9 @@ export default function ProductCard({ product, delay = 0 }) {
       data-delay={delay}
     >
       <div className="product-card__image">
-        <img
+        <Picture
           src={product.image}
           alt={product.alt || product.title}
-          loading="lazy"
           width="465"
           height="376"
           className="product-card__img"

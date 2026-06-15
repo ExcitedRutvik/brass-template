@@ -1,4 +1,4 @@
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 import StatCounter from '../ui/StatCounter';
 
 export default function Stats() {

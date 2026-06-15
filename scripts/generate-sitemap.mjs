@@ -12,6 +12,8 @@ const SITE = 'https://deepakproducts.com';
 const productIds = [
   'mcb-parts', 'brass-electrical-components', 'modular-socket-parts',
   'crimping-lugs', 'brass-turned-components', 'customized-components',
+  'sheet-metal-components', 'modular-switch-parts', 'brass-earth-tag',
+  'brass-hex-nuts-bolts', 'brass-moulding-inserts',
 ];
 
 // Blog slugs = filenames in src/data/blog (minus index.js)

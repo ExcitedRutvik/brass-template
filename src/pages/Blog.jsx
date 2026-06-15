@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import { useReveal } from '../hooks/useReveal';
 import { posts, categories } from '../data/blog';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
+import Picture from '../components/ui/Picture';
 
 export default function Blog() {
   const ref = useReveal();
@@ -49,7 +50,7 @@ export default function Blog() {
               {filtered.map((p, i) => (
                 <Link to={`/blog/${p.slug}`} key={p.slug} className="blog-card hover-lift" data-reveal="fade-up" data-delay={(i % 3) * 100}>
                   <div className="blog-card__image">
-                    <img src={p.heroImage} alt={p.title} loading="lazy" className="blog-card__img" />
+                    <Picture src={p.heroImage} alt={p.title} loading="lazy" className="blog-card__img" />
                     <span className="blog-card__cat">{p.category}</span>
                   </div>
                   <div className="blog-card__body">

@@ -37,7 +37,7 @@ export const client = {
     titleHighlight: "Brass Components",
     subtitle:
       "Four decades of precision sheet metal stamping and brass component manufacturing. ISO 9001:2015 certified. One stop solution trusted by 700+ clients across 10+ countries.",
-    image: "/assets/img/about/factory.jpg",
+    image: "/assets/img/slider/01.jpg",
   },
 
   stats: [
@@ -47,7 +47,8 @@ export const client = {
     { value: 40, suffix: "", label: "Years of Excellence" },
   ],
 
-  // 6 showcase products (each maps to a real photo)
+  // Full product range — each has a distinct real photo + per-product detail.
+  // The home page shows the first 6 as a showcase; /products shows all.
   products: [
     {
       id: "mcb-parts",
@@ -56,6 +57,9 @@ export const client = {
       title: "MCB Parts",
       desc: "Terminal cages, bi-metal strips, and precision MCB components stamped to exacting tolerances for circuit breaker assemblies.",
       alt: "MCB Parts – Terminal Cage components manufactured by Deepak Products, Jamnagar",
+      materials: "Brass, bi-metal, mild steel",
+      applications: ["Miniature circuit breakers", "Distribution boards", "Switchgear assemblies"],
+      specs: [["Process", "Progressive stamping"], ["Tolerance", "±0.05 mm"], ["Finishing", "Nickel / tin plating"], ["MOQ", "Prototype to high volume"]],
     },
     {
       id: "brass-electrical-components",
@@ -64,6 +68,9 @@ export const client = {
       title: "Brass Electrical Components",
       desc: "Lugs, pins, terminals, and connectors machined from high-grade brass for switchgear, panels, and electrical assemblies.",
       alt: "Brass Electrical Components – lugs, pins, terminals by Deepak Products",
+      materials: "High-conductivity brass",
+      applications: ["Switchgear & panels", "Electrical connectors", "Bus-bar assemblies"],
+      specs: [["Process", "Stamping + CNC"], ["Plating", "Nickel / tin / silver"], ["Grades", "Free-cutting & HC brass"], ["Custom", "To drawing / sample"]],
     },
     {
       id: "modular-socket-parts",
@@ -72,6 +79,9 @@ export const client = {
       title: "Modular Socket Parts",
       desc: "6A, 16A, and 6–13A modular socket and switch components for electrical wiring accessory manufacturers.",
       alt: "Brass Modular Socket Parts – 6A, 16A, 6-13A by Deepak Products",
+      materials: "Brass, phosphor bronze",
+      applications: ["Modular switches & sockets", "Wiring accessories", "Contact assemblies"],
+      specs: [["Ratings", "6A · 16A · 6–13A"], ["Process", "Precision stamping"], ["Contact force", "Tuned to spec"], ["Plating", "Optional"]],
     },
     {
       id: "crimping-lugs",
@@ -80,6 +90,9 @@ export const client = {
       title: "Crimping Lugs",
       desc: "Brass cable connection lugs in a full range of sizes for reliable, low-resistance electrical terminations.",
       alt: "Crimping Lugs – brass cable connection lugs by Deepak Products",
+      materials: "Brass, copper",
+      applications: ["Cable terminations", "Power distribution", "Panel wiring"],
+      specs: [["Conductor range", "2.5–300 sq mm"], ["Stud holes", "M5–M12"], ["Plating", "Tin (optional)"], ["Type", "Insulated / bare"]],
     },
     {
       id: "brass-turned-components",
@@ -88,6 +101,9 @@ export const client = {
       title: "Brass Turned Components",
       desc: "CNC precision-machined turned parts to your drawings — tolerances held across high-volume production runs.",
       alt: "Brass Turned Components – CNC precision machined parts",
+      materials: "Brass, copper, stainless",
+      applications: ["Connector bodies", "Fittings & adapters", "Automotive sensor parts"],
+      specs: [["Process", "Swiss-type CNC turning"], ["Tolerance", "±0.01 mm"], ["Secondary ops", "Threading, knurling"], ["Volumes", "Prototype to mass"]],
     },
     {
       id: "customized-components",
@@ -96,14 +112,94 @@ export const client = {
       title: "Customized Components",
       desc: "Bespoke sheet metal and brass parts manufactured to your specification, sample, or drawing — from prototype to production.",
       alt: "Customized Components – bespoke metal parts by Deepak Products",
+      materials: "Brass, MS, stainless, aluminium",
+      applications: ["Custom OEM parts", "Prototyping", "Special assemblies"],
+      specs: [["Input", "Drawing / sample"], ["Tooling", "In-house tool room"], ["Lead time", "Quoted in 24h"], ["Quality", "ISO 9001:2015"]],
+    },
+    {
+      id: "sheet-metal-components",
+      icon: "Layers",
+      image: "/assets/img/products/sheet_metal_components.jpg",
+      title: "Sheet Metal Components",
+      desc: "Precision sheet-metal stampings — brackets, contacts, clips, and deep-drawn parts produced on progressive press tools.",
+      alt: "Sheet Metal Stamping Components by Deepak Products, Jamnagar",
+      materials: "Brass, MS, stainless, copper",
+      applications: ["Electrical hardware", "Appliance parts", "Deep-drawn shells"],
+      specs: [["Process", "Progressive stamping"], ["Thickness", "0.1–3 mm"], ["Tolerance", "±0.05 mm"], ["Finishing", "Plating / passivation"]],
+    },
+    {
+      id: "modular-switch-parts",
+      icon: "ToggleRight",
+      image: "/assets/img/products/modular_socket_switch_parts.jpg",
+      title: "Modular Switch Parts",
+      desc: "Contact strips, pins, and brass internals for modular switch ranges, tuned for reliable switching life.",
+      alt: "Modular Switch Parts – brass internals by Deepak Products",
+      materials: "Brass, phosphor bronze",
+      applications: ["Modular switches", "Dimmers & regulators", "Wiring devices"],
+      specs: [["Process", "Stamping + forming"], ["Contact life", "High-cycle"], ["Plating", "Silver / tin optional"], ["Custom", "To housing spec"]],
+    },
+    {
+      id: "brass-earth-tag",
+      icon: "Anchor",
+      image: "/assets/img/products/brass_earth_tag.jpg",
+      title: "Brass Earth Tags",
+      desc: "Earthing and bonding tags that hold a low-resistance, corrosion-resistant connection for years — indoor or outdoor.",
+      alt: "Brass Earth Tags – earthing & bonding components by Deepak Products",
+      materials: "High-conductivity brass",
+      applications: ["Electrical earthing", "Equipment bonding", "Safety grounding"],
+      specs: [["Conductivity", "Low-resistance"], ["Corrosion", "High resistance"], ["Plating", "Optional"], ["Sizes", "Standard & custom"]],
+    },
+    {
+      id: "brass-hex-nuts-bolts",
+      icon: "Bolt",
+      image: "/assets/img/products/brass_hex_nuts_and_bolts.jpg",
+      title: "Brass Hex Nuts & Bolts",
+      desc: "Precision brass fasteners — hex nuts, bolts, and washers in standard and custom threads for electrical and general assembly.",
+      alt: "Brass Hex Nuts & Bolts by Deepak Products, Jamnagar",
+      materials: "Free-cutting brass",
+      applications: ["Electrical assembly", "Panel hardware", "General fastening"],
+      specs: [["Threads", "Metric / BSW / custom"], ["Process", "CNC + stamping"], ["Finish", "Natural / plated"], ["Volumes", "Bulk supply"]],
+    },
+    {
+      id: "brass-moulding-inserts",
+      icon: "CircleDot",
+      image: "/assets/img/products/brass_moulding_inserts.jpg",
+      title: "Brass Moulding Inserts",
+      desc: "Threaded inserts for plastic — heat-set, ultrasonic, and press-fit knurled inserts for strong, reusable threads.",
+      alt: "Brass Moulding Inserts – threaded inserts for plastic by Deepak Products",
+      materials: "Free-cutting brass",
+      applications: ["Plastic housings", "Appliance trim", "Automotive interiors"],
+      specs: [["Types", "Heat-set / ultrasonic / press-fit"], ["Knurls", "Straight / diamond / helical"], ["Threads", "M2–M12 & custom"], ["Tolerance", "±0.02 mm"]],
     },
   ],
 
-  // Fuller catalog shown on the products page
+  // How many showcase cards appear on the home page Products section
+  showcaseCount: 6,
+
+  // Full catalog shown on the products page — every item links to a detail page
   catalog: {
-    "Sheet Metal Components": ["MCB Parts", "Brass Electrical Components", "Mortise Lock Parts", "Deep Draw Products", "Brass & MS Washers", "Brass Fuse Components"],
-    "Modular Socket & Switch": ["Modular Socket Parts", "Modular Switch Parts", "Modular Pins", "Brass Terminals"],
-    "Brass & Machined Parts": ["Crimping Lugs", "Brass Earth Tag", "Brass Turned Components", "Brass Hex Nuts & Bolts", "Brass Moulding Inserts", "Customized Components"],
+    "Sheet Metal Components": [
+      { label: "MCB Parts", id: "mcb-parts" },
+      { label: "Brass Electrical Components", id: "brass-electrical-components" },
+      { label: "Mortise Lock Parts", id: "sheet-metal-components" },
+      { label: "Deep Draw Products", id: "sheet-metal-components" },
+      { label: "Brass & MS Washers", id: "sheet-metal-components" },
+      { label: "Brass Fuse Components", id: "brass-electrical-components" },
+    ],
+    "Modular Socket & Switch": [
+      { label: "Modular Socket Parts", id: "modular-socket-parts" },
+      { label: "Modular Switch Parts", id: "modular-switch-parts" },
+      { label: "Modular Pins", id: "modular-socket-parts" },
+      { label: "Brass Terminals", id: "brass-electrical-components" },
+    ],
+    "Brass & Machined Parts": [
+      { label: "Crimping Lugs", id: "crimping-lugs" },
+      { label: "Brass Earth Tag", id: "brass-earth-tag" },
+      { label: "Brass Turned Components", id: "brass-turned-components" },
+      { label: "Brass Hex Nuts & Bolts", id: "brass-hex-nuts-bolts" },
+      { label: "Brass Moulding Inserts", id: "brass-moulding-inserts" },
+      { label: "Customized Components", id: "customized-components" },
+    ],
   },
 
   industries: [

@@ -9,7 +9,7 @@ export const post = {
   date: '2025-05-10',
   author: 'Deepak Products',
   readTime: '7 min',
-  heroImage: '/assets/img/home_products/electrical_components.jpg',
+  heroImage: '/assets/img/products/brass_earth_tag.jpg',
   excerpt:
     'Earthing is the silent guardian of every electrical installation. Here is how brass terminals and earthing accessories keep systems and people safe.',
   body: [

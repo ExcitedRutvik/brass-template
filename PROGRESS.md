@@ -1,90 +1,79 @@
 # Deepak Products — Build Progress
 
 > **Live dashboard.** Open this file anytime to see what's done, in progress, and left.
-> **Last updated:** 2026-06-08 — All 5 parts complete ✅
+> **Last updated:** 2026-06-08 — Fine-tuning pass complete ✅
 > **Currently working on:** Done — ready for review (`npm run dev`)
 
 ---
 
-## Part 1 — Correct Real Company Data ✅
-- [x] Download real company facts from live Deepak site
-- [x] Rewrite `client-config.js` — real products (sheet metal + brass)
-- [x] Real industries (7), contact, address, founder, certs
-- [x] Add `image` field to each product + industry
+## Fine-Tuning Pass (latest) ✅
 
-## Part 2 — Wire Real Images ✅
-- [x] Download 6 product images → `public/assets/img/home_products/`
-- [x] Download 7 industry images → `public/assets/img/industries/`
-- [x] Download factory photo → `public/assets/img/about/`
-- [x] Download 2 logos → `public/assets/img/logo/`
-- [x] Product cards render real photos (with hover zoom)
-- [x] Industry tiles: image + gradient overlay + hover reveal
-- [x] About section: real factory photo + years badge
-- [x] Header/Footer: SVG logo
-- [x] Hero: factory image with parallax + glow
+### Step 1-2 — Fonts + Header
+- [x] Libre Caslon Display (headings) + Hanken Grotesk (body); render-blocking `@import` dropped for `<link>` preload
+- [x] `font-synthesis: none` so Caslon (400-only) never faux-bolds
+- [x] Header route-aware: solid on every page except home hero → **nav no longer disappears on Get-a-Quote / light pages**
 
-## Part 3 — Bold & Dynamic Motion ✅
-- [x] `useParallax` hook (pointer-driven)
-- [x] Image zoom-on-scroll (`zoom-on-scroll`, reveal `zoom` variant)
-- [x] Logo/cert marquee strip (`LogoMarquee`)
-- [x] Sticky scroll panel (Capabilities "Factory at a Glance")
-- [x] Animated gradient mesh keyframes (`gradient-mesh`)
-- [x] Micro-interactions (button shine, hover lift, card tilt, animated divider)
-- [x] Count-up stats fire on scroll
-- [x] `prefers-reduced-motion` respected for all new motion
+### Step 3-4 — Richer images + Products
+- [x] Downloaded 8 product + 3 slider images (now 11 distinct product photos)
+- [x] `client-config.js`: 11 real products with per-product `specs` / `applications` / `materials`
+- [x] Hero uses slider banner (factory.jpg no longer reused 3×); all 12 blog heroes distinct
+- [x] ProductDetail: per-product specs/applications (no repeated content) + "Back to all products"
+- [x] Full Catalog items are clickable links to detail pages
 
-## Part 4 — Blog / SEO Engine (12 posts) ✅
-- [x] `src/data/blog/` structure + post schema
-- [x] `Blog.jsx` index page (category filter)
-- [x] `BlogPost.jsx` template (breadcrumb, FAQ accordion, related, aside)
-- [x] `ProductDetail.jsx` (Product schema + related guides)
-- [x] Routes `/blog`, `/blog/:slug`, `/products/:id` + nav links
-- [x] Post 1 — Sheet Metal Stamping Components Guide
-- [x] Post 2 — MCB Parts Manufacturing in India
-- [x] Post 3 — Brass Electrical Components
-- [x] Post 4 — Modular Socket & Switch Parts
-- [x] Post 5 — Crimping Lugs Explained
-- [x] Post 6 — Brass Turned Components & CNC
-- [x] Post 7 — Brass Moulding Inserts
-- [x] Post 8 — Deep Draw Sheet Metal Products
-- [x] Post 9 — Choosing a Manufacturer in Jamnagar
-- [x] Post 10 — Brass Components for Automobile Industry
-- [x] Post 11 — Brass Terminals & Earthing Accessories
-- [x] Post 12 — Brass vs MS Washers
-- [x] FAQ + BlogPosting + Product + Breadcrumb JSON-LD
-- [x] Interlinking (blog↔products, post↔post)
-- [x] Sitemap generator (`scripts/generate-sitemap.mjs`, 26 URLs, runs on prebuild)
+### Step 5 — Component polish
+- [x] Global Reach: faded Globe → animated **world map** with pulsing brass dots + arcs on export markets
+- [x] Hero scroll cue → premium animated mouse-wheel indicator
+- [x] Capabilities + About: alignment fixed (stretch); removed sticky offset
 
-## Part 5 — Fail-Switch + Tracker ✅
-- [x] `PROGRESS.md` created + maintained
-- [x] Fail-switch resume detection (below)
-- [x] `TODO.md` synced
+### Step 6 — Performance
+- [x] `sharp` WebP generation (`scripts/optimize-images.mjs`, runs on prebuild) — saved 1.16 MB
+- [x] `<Picture>` helper: WebP with JPG fallback across all image components
+- [x] Hero image `loading="eager"` + `fetchpriority="high"` + preload; others lazy + width/height
+
+### Step 7 — SEO / AEO / GEO
+- [x] Sitemap regenerated → 31 URLs (11 products + 12 blog + 8 static)
+- [x] AEO: FAQ schema + visible FAQ on every product page; FAQ already on blog
+- [x] GEO: `public/llms.txt` (entity facts + all key URLs); enriched Organization (`knowsAbout`, `hasCredential`, offer URLs)
+- [x] `robots.txt` explicitly allows GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.
+- [x] Product `Product` schema + `material`; OG/Twitter images use real banner
+
+### Step 8-9 — Review + security + tracker
+- [x] Build clean, **lint 0 errors** (split `clientStore.js` to fix fast-refresh rule)
+- [x] Security headers via `public/_headers` + `netlify.toml` (CSP, HSTS, X-Frame-Options, nosniff, Referrer-Policy)
+- [x] `npm audit` = 0 vulnerabilities; all external links `rel="noopener noreferrer"`
+- [x] PROGRESS.md + fail-switch updated; TODO.md synced
 
 ---
 
 ## Fail-Switch — Resume Instructions
 
-If the session is lost, resume precisely with these checks:
+If the session is lost, resume precisely:
 
 1. `cd /home/ubuntu/projects/brass-template/.claude/worktrees/eloquent-mayer-393e29`
-2. `npm install && npm run build` — must pass clean
-3. Detection (which part is done):
-   - `public/assets/img/home_products/` populated → **Part 2 images done**
-   - `client-config.js` contains `"sheet metal"` / `Rasikbhai` → **Part 1 done**
-   - `src/hooks/useParallax.js` exists → **Part 3 done**
-   - `src/data/blog/` has 12 `.js` files (excl index) → **Part 4 posts done**
-   - `public/sitemap.xml` has 26 `<loc>` entries → **sitemap done**
-4. The checkbox state above = authoritative ledger.
-5. `TODO.md` phase line is kept in sync.
+2. `npm install && npm run build` — must pass clean; `npx eslint src --quiet` — 0 errors
+3. Detection (what's already done this pass):
+   - `index.html` references `Libre+Caslon+Display` → **fonts done**
+   - `Header.jsx` contains `useLocation` + `!isHome` → **header fix done**
+   - `public/assets/img/products/` has 8 files → **richer images downloaded**
+   - `client-config.js` product has `specs:` → **products expanded**
+   - `src/components/ui/WorldMap.jsx` exists → **Global Reach done**
+   - `src/components/ui/Picture.jsx` + `.webp` files in `public/assets/img/**` → **WebP done**
+   - `public/llms.txt` exists & `robots.txt` has `GPTBot` → **AEO/GEO done**
+   - `src/context/clientStore.js` exists → **lint fix done**
+4. Checkbox state above = authoritative ledger.
 
 ### State at last update
-- All 5 parts complete. Build clean. Preview verified: images 200, all SPA routes serve, schema present, sitemap 26 URLs.
+- All steps complete. Build clean, lint 0, 31 sitemap URLs, WebP serving, preview smoke test: all routes + assets 200.
+
+---
+
+## Prior passes (still in place)
+- Real Deepak data, 16→27 images, bold motion, 12-post blog/SEO engine, brass-gold + navy theme — all from earlier passes, retained.
 
 ---
 
 ## Manual Follow-Ups (off-code, for the user)
-- Off-site **backlinks** — outreach to suppliers/directories/trade portals (can't be coded; earns ranking authority)
-- Submit `sitemap.xml` to Google Search Console
-- Add real Google Business Profile URL to LocalBusiness schema (`index.html`)
+- Off-site **backlinks** — outreach to suppliers/directories/trade portals (earns ranking authority; can't be coded)
+- Submit `sitemap.xml` to Google Search Console; add Google Business Profile URL to `sameAs` in `index.html` schema
 - Replace placeholder testimonials in `client-config.js` with real client quotes
-- Optional: convert JPGs to WebP for faster loads
+- Add real social profile URLs to a `sameAs` array (Organization schema) once available

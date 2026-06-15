@@ -1,4 +1,5 @@
 import { Check } from 'lucide-react';
+import Picture from '../ui/Picture';
 
 export default function Capabilities() {
 
@@ -43,9 +44,9 @@ export default function Capabilities() {
               ))}
             </ul>
           </div>
-          <div className="capabilities-panel sticky-panel" data-reveal="fade-left" data-delay="200">
+          <div className="capabilities-panel" data-reveal="fade-left" data-delay="200">
             <div className="capabilities-panel__img">
-              <img src="/assets/img/about/factory.jpg" alt="Deepak Products manufacturing facility, Jamnagar" loading="lazy" />
+              <Picture src="/assets/img/about/factory.jpg" alt="Deepak Products manufacturing facility, Jamnagar" loading="lazy" />
             </div>
             <h3 className="capabilities-panel__title">Factory at a Glance</h3>
             <div className="capabilities-panel__stats">

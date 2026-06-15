@@ -1,5 +1,5 @@
-import { Globe } from 'lucide-react';
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
+import WorldMap from '../ui/WorldMap';
 
 export default function GlobalPresence() {
   const { exportCountries } = useClient();
@@ -36,8 +36,8 @@ export default function GlobalPresence() {
               ))}
             </div>
           </div>
-          <div data-reveal="fade-left" data-delay="200" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', opacity: 0.25 }}>
-            <Globe size={200} strokeWidth={0.75} color="var(--color-primary)" />
+          <div className="global-map" data-reveal="fade-left" data-delay="200">
+            <WorldMap />
           </div>
         </div>
       </div>

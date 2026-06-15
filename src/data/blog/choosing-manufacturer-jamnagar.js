@@ -9,7 +9,7 @@ export const post = {
   date: '2025-04-15',
   author: 'Deepak Products',
   readTime: '8 min',
-  heroImage: '/assets/img/about/factory.jpg',
+  heroImage: '/assets/img/slider/03.jpg',
   excerpt:
     'Jamnagar has hundreds of brass and metal units. This checklist helps you separate a reliable manufacturing partner from a one-off vendor.',
   body: [

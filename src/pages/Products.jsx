@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 import { useReveal } from '../hooks/useReveal';
-import { useClient } from '../context/ClientContext';
+import { useClient } from '../context/clientStore';
 import ProductCard from '../components/ui/ProductCard';
 import CTABanner from '../components/sections/CTABanner';
 
@@ -48,7 +49,11 @@ export default function Products() {
                 <div className="catalog-col" key={group} data-reveal="fade-up" data-delay={gi * 100}>
                   <h3 className="catalog-col__title">{group}</h3>
                   <ul className="catalog-col__list">
-                    {items.map((it) => <li key={it}>{it}</li>)}
+                    {items.map((it) => (
+                      <li key={it.label}>
+                        <Link to={`/products/${it.id}`} className="catalog-col__link">{it.label}</Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               ))}

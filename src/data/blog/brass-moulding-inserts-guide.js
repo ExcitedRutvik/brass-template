@@ -9,7 +9,7 @@ export const post = {
   date: '2025-03-19',
   author: 'Deepak Products',
   readTime: '6 min',
-  heroImage: '/assets/img/home_products/brass_turned_components.jpg',
+  heroImage: '/assets/img/products/brass_moulding_inserts.jpg',
   excerpt:
     'Brass inserts give plastic parts strong, reusable metal threads. Here is how the main insert types differ and how to specify the right one.',
   body: [

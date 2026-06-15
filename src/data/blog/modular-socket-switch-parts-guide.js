@@ -9,7 +9,7 @@ export const post = {
   date: '2025-02-14',
   author: 'Deepak Products',
   readTime: '6 min',
-  heroImage: '/assets/img/home_products/modular_socket_parts.jpg',
+  heroImage: '/assets/img/products/modular_socket_switch_parts.jpg',
   excerpt:
     'Modular wiring accessories depend on precise brass internals. Here is what to specify when sourcing socket and switch parts at 6A, 16A, and 6-13A ratings.',
   body: [

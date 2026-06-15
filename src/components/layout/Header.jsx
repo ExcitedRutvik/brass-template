@@ -1,11 +1,18 @@
 import { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
-import { useClient } from '../../context/ClientContext';
+import { NavLink, useLocation } from 'react-router-dom';
+import { useClient } from '../../context/clientStore';
 
 export default function Header() {
   const client = useClient();
+  const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Only the home page has a dark full-bleed hero behind a transparent header.
+  // Every other route has a light background at the top, so the header must be
+  // solid immediately or the white nav text disappears.
+  const isHome = location.pathname === '/';
+  const solid = scrolled || !isHome;
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 60);
@@ -23,7 +30,7 @@ export default function Header() {
   ];
 
   return (
-    <header className={`header${scrolled ? ' header--scrolled' : ''}`} role="banner">
+    <header className={`header${solid ? ' header--scrolled' : ''}`} role="banner">
       <div className="container">
         <div className="header__inner">
           <NavLink to="/" className="header__logo" aria-label={`${client.name} Home`}>

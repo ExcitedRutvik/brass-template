@@ -1,4 +1,4 @@
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 import CertBadge from '../ui/CertBadge';
 
 const steps = [

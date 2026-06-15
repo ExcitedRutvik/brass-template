@@ -9,7 +9,7 @@ export const post = {
   date: '2025-04-02',
   author: 'Deepak Products',
   readTime: '6 min',
-  heroImage: '/assets/img/home_products/customized_components.jpg',
+  heroImage: '/assets/img/slider/02.jpg',
   excerpt:
     'Deep drawing turns flat sheet into seamless three-dimensional shells. Here is how the process works and where deep-drawn parts excel.',
   body: [

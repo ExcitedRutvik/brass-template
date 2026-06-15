@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { useReveal } from '../hooks/useReveal';
-import { useClient } from '../context/ClientContext';
+import { useClient } from '../context/clientStore';
 import Capabilities from '../components/sections/Capabilities';
 import WhyUs from '../components/sections/WhyUs';
 import CTABanner from '../components/sections/CTABanner';

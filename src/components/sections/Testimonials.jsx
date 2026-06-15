@@ -1,4 +1,4 @@
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 
 const delays = [100, 200, 300];
 

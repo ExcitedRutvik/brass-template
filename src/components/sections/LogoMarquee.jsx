@@ -1,5 +1,5 @@
 import Marquee from '../ui/Marquee';
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 
 export default function LogoMarquee() {
   const { exportCountries, certifications } = useClient();

@@ -1,6 +1,6 @@
 import { MessageCircle, Mail, MapPin, CheckCircle, Phone } from 'lucide-react';
 import { useState } from 'react';
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 
 export default function ContactSection() {
   const client = useClient();

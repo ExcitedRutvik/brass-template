@@ -1,5 +1,6 @@
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 import LucideIcon from '../ui/LucideIcon';
+import Picture from '../ui/Picture';
 
 export default function Industries() {
   const { industries } = useClient();
@@ -17,7 +18,7 @@ export default function Industries() {
         <div className="industry-grid">
           {industries.map((item, i) => (
             <div key={item.id} className="industry-tile" data-reveal="fade-up" data-delay={(i % 4) * 80}>
-              <img
+              <Picture
                 src={item.image}
                 alt={`${item.title} components by Deepak Products, Jamnagar`}
                 loading="lazy"

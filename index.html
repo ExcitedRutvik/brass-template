@@ -26,7 +26,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Hanken+Grotesk:wght@300;400;500;600;700;800&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Hanken+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <!-- Preload the hero banner for faster LCP -->
+    <link rel="preload" as="image" href="/assets/img/slider/01.webp" imagesrcset="/assets/img/slider/01.webp" />
+    <meta property="og:image" content="https://deepakproducts.com/assets/img/slider/01.jpg" />
+    <meta name="twitter:image" content="https://deepakproducts.com/assets/img/slider/01.jpg" />
 
     <!-- JSON-LD: LocalBusiness / Manufacturer -->
     <script type="application/ld+json">
@@ -38,8 +43,12 @@
       "foundingDate": "1985",
       "founder": { "@type": "Person", "name": "Rasikbhai K. Bhut" },
       "url": "https://deepakproducts.com",
+      "logo": "https://deepakproducts.com/assets/img/logo/logo-on-light.svg",
+      "image": "https://deepakproducts.com/assets/img/slider/01.jpg",
       "telephone": "+91-96627-13385",
       "email": "sales@deepakproducts.com",
+      "slogan": "One stop solution for sheet metal & brass components",
+      "naics": "332119",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Plot No 4219, Road–F, G.I.D.C. Phase–III, Dared",
@@ -50,16 +59,27 @@
       },
       "geo": { "@type": "GeoCoordinates", "latitude": 22.4707, "longitude": 70.0577 },
       "areaServed": ["IN","GB","AE","US","AU","DE","IT","SG"],
+      "knowsAbout": [
+        "Sheet metal stamping", "Brass components", "MCB parts", "Brass electrical components",
+        "Modular socket and switch parts", "Crimping lugs", "Brass turned components",
+        "Brass moulding inserts", "Deep draw products", "Precision CNC machining", "Brass earthing accessories"
+      ],
+      "hasCredential": [
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "ISO 9001:2015" },
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "D-U-N-S 65-081-4762" },
+        { "@type": "EducationalOccupationalCredential", "credentialCategory": "NSIC SE3B" }
+      ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Sheet Metal & Brass Components",
         "itemListElement": [
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "MCB Parts" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Brass Electrical Components" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Modular Socket Parts" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Crimping Lugs" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Brass Turned Components" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Customized Components" } }
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "MCB Parts", "url": "https://deepakproducts.com/products/mcb-parts" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Brass Electrical Components", "url": "https://deepakproducts.com/products/brass-electrical-components" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Modular Socket Parts", "url": "https://deepakproducts.com/products/modular-socket-parts" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Crimping Lugs", "url": "https://deepakproducts.com/products/crimping-lugs" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Brass Turned Components", "url": "https://deepakproducts.com/products/brass-turned-components" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Brass Moulding Inserts", "url": "https://deepakproducts.com/products/brass-moulding-inserts" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Product", "name": "Customized Components", "url": "https://deepakproducts.com/products/customized-components" } }
         ]
       }
     }

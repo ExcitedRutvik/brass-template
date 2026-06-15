@@ -2,12 +2,13 @@ import { Helmet } from 'react-helmet-async';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { ArrowRight, Calendar, Clock } from 'lucide-react';
 import { useReveal } from '../hooks/useReveal';
-import { useClient } from '../context/ClientContext';
+import { useClient } from '../context/clientStore';
 import { getPost, getRelatedPosts } from '../data/blog';
 import Breadcrumbs from '../components/ui/Breadcrumbs';
 import FaqAccordion from '../components/ui/FaqAccordion';
 import RichText from '../components/ui/RichText';
 import CTABanner from '../components/sections/CTABanner';
+import Picture from '../components/ui/Picture';
 
 const SITE = 'https://deepakproducts.com';
 
@@ -100,7 +101,7 @@ export default function BlogPost() {
           </header>
 
           <div className="post__hero-img">
-            <img src={post.heroImage} alt={post.title} className="zoom-on-scroll" data-reveal="fade-in" />
+            <Picture src={post.heroImage} alt={post.title} className="zoom-on-scroll" data-reveal="fade-in" />
           </div>
 
           <div className="container">
@@ -122,7 +123,7 @@ export default function BlogPost() {
                       {relatedProducts.map((p) => (
                         <li key={p.id}>
                           <Link to={`/products/${p.id}`} className="post__widget-link">
-                            <img src={p.image} alt={p.title} loading="lazy" />
+                            <Picture src={p.image} alt={p.title} loading="lazy" />
                             <span>{p.title}</span>
                           </Link>
                         </li>
@@ -143,7 +144,7 @@ export default function BlogPost() {
                   {related.map((p) => (
                     <Link to={`/blog/${p.slug}`} key={p.slug} className="blog-card hover-lift">
                       <div className="blog-card__image">
-                        <img src={p.heroImage} alt={p.title} loading="lazy" className="blog-card__img" />
+                        <Picture src={p.heroImage} alt={p.title} loading="lazy" className="blog-card__img" />
                         <span className="blog-card__cat">{p.category}</span>
                       </div>
                       <div className="blog-card__body">

@@ -1,6 +1,6 @@
 import { Mail, MapPin, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 
 export default function Footer() {
   const client = useClient();
@@ -18,7 +18,7 @@ export default function Footer() {
           <div>
             <div className="footer__heading">Products</div>
             <ul className="footer__links">
-              {client.products.map((p) => (
+              {client.products.slice(0, 6).map((p) => (
                 <li key={p.id}>
                   <Link to={`/products/${p.id}`} className="footer__link">{p.title}</Link>
                 </li>

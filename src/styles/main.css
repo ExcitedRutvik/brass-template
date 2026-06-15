@@ -3,8 +3,8 @@
    CSS custom properties, reset, utilities
    ============================================= */
 
-/* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&display=swap');
+/* --- Google Fonts are loaded via <link> preconnect/preload in index.html
+       (Libre Caslon Display + Hanken Grotesk) to avoid render-blocking @import --- */
 
 /* --- CSS Variables --- */
 :root {
@@ -28,8 +28,8 @@
   --color-black: #0F0C08;
 
   /* Typography */
-  --font-serif: 'Fraunces', Georgia, serif;
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Libre Caslon Display', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
 
   /* Sizing */
   --max-width: 1200px;
@@ -64,6 +64,15 @@ body {
   color: var(--color-gray-800);
   background: var(--color-white);
   -webkit-font-smoothing: antialiased;
+  /* Libre Caslon Display ships a single 400 weight; prevent ugly faux-bold.
+     Hanken Grotesk has real weights so its bold is unaffected. */
+  font-synthesis: none;
+}
+/* High-contrast Caslon reads best at its true weight + slightly tighter heading metrics */
+.heading-xl, .heading-lg, .heading-md, .hero__title, .section__title,
+.post__title, .post__h2, .product-detail__title, .blog-card__title, .post__h3 {
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 img, video { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }

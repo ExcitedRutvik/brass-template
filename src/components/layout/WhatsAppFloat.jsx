@@ -1,5 +1,5 @@
 import { MessageCircle } from 'lucide-react';
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 
 export default function WhatsAppFloat() {
   const client = useClient();

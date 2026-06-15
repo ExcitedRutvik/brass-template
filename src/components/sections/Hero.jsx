@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, MessageCircle } from 'lucide-react';
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 import { useParallax, parallaxStyle } from '../../hooks/useParallax';
+import ScrollIndicator from '../ui/ScrollIndicator';
+import Picture from '../ui/Picture';
 
 export default function Hero() {
   const client = useClient();
@@ -38,18 +40,20 @@ export default function Hero() {
             </div>
           </div>
           <div className="hero__media" data-reveal="fade-left" data-delay="200" style={parallaxStyle(offset, -0.08)}>
-            <img
+            <Picture
               src={hero.image}
-              alt="Deepak Products precision manufacturing facility in Jamnagar, Gujarat"
+              alt="Deepak Products precision sheet metal and brass manufacturing in Jamnagar, Gujarat"
               className="hero__media-img"
-              width="247"
-              height="271"
+              width="880"
+              height="660"
+              loading="eager"
+              fetchpriority="high"
             />
             <div className="hero__media-glow" aria-hidden="true" />
           </div>
         </div>
       </div>
-      <div className="hero__scroll" aria-hidden="true">Scroll</div>
+      <div className="hero__scroll"><ScrollIndicator /></div>
     </section>
   );
 }

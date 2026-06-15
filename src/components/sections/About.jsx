@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
+import Picture from '../ui/Picture';
 
 export default function About() {
   const client = useClient();
@@ -26,7 +27,7 @@ export default function About() {
             </Link>
           </div>
           <div className="about-image" data-reveal="fade-left" data-delay="200">
-            <img
+            <Picture
               src="/assets/img/about/factory.jpg"
               alt="Deepak Products precision manufacturing facility in Jamnagar, Gujarat"
               loading="lazy"

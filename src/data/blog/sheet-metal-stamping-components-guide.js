@@ -9,7 +9,7 @@ export const post = {
   date: '2025-01-12',
   author: 'Deepak Products',
   readTime: '8 min',
-  heroImage: '/assets/img/home_products/mcb_part.jpg',
+  heroImage: '/assets/img/products/sheet_metal_components.jpg',
   excerpt:
     'Everything procurement teams need to know about sheet metal stamping components — from the stamping process and material selection to tolerances and choosing the right manufacturer.',
   body: [

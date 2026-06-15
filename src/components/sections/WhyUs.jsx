@@ -1,4 +1,4 @@
-import { useClient } from '../../context/ClientContext';
+import { useClient } from '../../context/clientStore';
 import LucideIcon from '../ui/LucideIcon';
 
 export default function WhyUs() {
